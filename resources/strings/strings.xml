@@ -1,0 +1,18 @@
+<strings>
+    <string id="AppName">RestTimer</string>
+    
+    <string id="TotalLabel">Total Time</string>
+	<string id="TotalText">0:00</string>
+	
+	<string id="TitleLabel">Rest Timer</string>
+	
+	<string id="MinutesText"></string>
+	<string id="Colon">:</string>
+	<string id="SecondsText"></string>
+	
+	<string id="HRLabel">HR</string>
+	<string id="HRText">---</string>
+	
+	<string id="HRZoneLabel">Zone</string>
+	<string id="HRZoneText">--</string>
+</strings>

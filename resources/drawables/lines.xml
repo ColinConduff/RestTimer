@@ -1,0 +1,8 @@
+<resources>
+    <drawable-list id="TopLine" x="0" y="25" width="dc.getWidth()" height="2" >
+        <shape type="rectangle" x="0" y="25" width="dc.getWidth()" height="2" color="Gfx.COLOR_BLUE" />
+    </drawable-list>
+    <drawable-list id="BottomLine" x="0" y="67" width="dc.getWidth()" height="2" >
+        <shape type="rectangle" x="0" y="67" width="dc.getWidth()" height="2" color="Gfx.COLOR_BLUE" />
+    </drawable-list>
+</resources>

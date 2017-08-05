@@ -1,0 +1,42 @@
+<layout id="RestTimerLayout" background="Gfx.COLOR_BLACK">
+
+    <label id="TotalTimeLabel" 
+    	x="center" y="top" 
+    	text="@Strings.TotalLabel" font="Gfx.FONT_SMALL" color="Gfx.COLOR_LT_GRAY" 
+    	justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="TotalTimeText" 
+    	x="center" y="Gfx.getFontHeight(Gfx.FONT_SMALL)" 
+    	text="@Strings.TotalText" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    
+    <label id="TitleLabel" 
+    	x="center" y="center" 
+    	text="@Strings.TitleLabel" font="Gfx.FONT_SYSTEM_LARGE" color="Gfx.COLOR_BLUE"
+    	justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    
+    <label id="MinutesText" 
+    	x="(dc.getWidth() / 4)" y="center" 
+    	text="@Strings.MinutesText" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="ColonText" 
+    	x="(dc.getWidth() / 2 - 10)" y="(dc.getHeight() / 2 - 60)" 
+    	text="@Strings.Colon" font="Gfx.FONT_NUMBER_THAI_HOT" color="Gfx.COLOR_BLACK" 
+    	justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="SecondsText" 
+    	x="(3 * dc.getWidth() / 4)" y="center" 
+    	text="@Strings.SecondsText" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    
+    <label id="HeartRateLabel" 
+    	x="(3 * dc.getWidth() / 8)" y="(dc.getHeight() - Gfx.getFontHeight(Gfx.FONT_LARGE) - 15)" 
+    	text="@Strings.HRLabel" font="Gfx.FONT_SMALL" color="Gfx.COLOR_LT_GRAY"
+    	justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="HeartRateText" 
+    	x="(3 * dc.getWidth() / 8)" y="bottom" 
+    	text="@Strings.HRText" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    	
+    <label id="HRZoneLabel" 
+    	x="(5 * dc.getWidth() / 8)" y="(dc.getHeight() - Gfx.getFontHeight(Gfx.FONT_LARGE) - 15)" 
+    	text="@Strings.HRZoneLabel" font="Gfx.FONT_SMALL" color="Gfx.COLOR_LT_GRAY"
+    	justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="HRZoneText" 
+    	x="(5 * dc.getWidth() / 8)" y="bottom" 
+    	text="@Strings.HRZoneText" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+</layout>
